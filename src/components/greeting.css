@@ -1,0 +1,23 @@
+/* Greeting.css */
+
+.greeting-container {
+    background-color: #f0f8ff;  /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    max-width: 600px; /* Restrict max width */
+    margin: 20px auto;  /* Center horizontally and add vertical margin */
+    text-align: center;  /* Center text inside the container */
+  }
+  
+  .greeting {
+    font-size: 2em;
+    color: #222; /* Dark color for text */
+    margin-bottom: 10px;
+  }
+  
+  .greeting-description {
+    font-size: 1.2em;
+    color: #666; /* Lighter text color for description */
+  }
+  

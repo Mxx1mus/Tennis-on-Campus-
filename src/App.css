@@ -1,0 +1,20 @@
+/* App.css */
+
+.App {
+    display: flex;
+    justify-content: center;  /* Horizontally center content */
+    align-items: center;      /* Vertically center content */
+    min-height: 100vh;        /* Take full height of the viewport */
+    background-image: url('file:///Users/maximus/Downloads/catsRamen.jpg');  /* URL of your background image */
+    background-size: cover;  /* Make the background image cover the entire page */
+    background-position: center;  /* Center the background image */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+  
+  .App-header {
+    text-align: center;
+  }
+  
