@@ -1,5 +1,7 @@
 import './App.css';
 import Greeting from './components/greeting';
+import buffCat from './image/buffCat.jpg';
+import bufferCat from './image/catBuf.jpg';
 
 function App() {
   return (
@@ -25,14 +27,24 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Here is a picture of a cat :3
+            Here are pictures of CATS :3
           </a>
         </div>
       </header>
 
+      {/* Left image */}
+      <div className = "left-side">
+        <img src = {buffCat} alt = "Left Side" />
+      </div>
+
+      {/* Right image */}
+      <div className="right-side">
+        <img src = {bufferCat} alt = "Right Side" />
+      </div>
+
       {/* Footer */}
       <div className="footer">
-        <p>© 2024 My Recipe App</p>
+        <p>© 2024 The Gym Cat App</p>
         <a href="https://www.example.com/privacy">Privacy Policy</a>
       </div>
     </div>
