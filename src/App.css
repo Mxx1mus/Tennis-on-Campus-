@@ -70,8 +70,8 @@ html, body {
 
 .left-side, .right-side {
     position: absolute;
-    top: 100px;
-    bottom: 250px;
+    top: 300px;
+    bottom: 900px;
     width: 15%;
     z-index: 10;
 }
@@ -111,6 +111,7 @@ html, body {
 /* Style for the button-container to hold both the button and the link */
 .button-container {
     display: flex;               /* Use flexbox to align items */
+    flex-wrap: wrap;
     justify-content: space-evenly; /* Distribute space evenly */
     align-items: center;         /* Align items vertically */
     width: 100%;                 /* Ensure the container takes full width */
@@ -122,7 +123,7 @@ html, body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: #ac8e19;   /* Green background */
     color: white;                /* White text */
-    font-size: 18px;             /* Set font size */
+    font-size: 16px;             /* Set font size */
     padding: 12px 85px;          /* Add padding */
     border: none;                /* Remove border */
     border-radius: 5px;          /* Rounded corners */
@@ -153,4 +154,48 @@ html, body {
   .App-link:hover {
     color: #000000;        /* Darker blue on hover */
   }
+
+.recipes-list{
+    margin-top: 40px;
+}
+
+.random-recipe{
+    margin-top: 20px;
+}
+
+.calories-result {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    max-width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
   
+input[type = "text"], input[type = "number"] {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #ac8e19;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #7c6c17;
+}
+

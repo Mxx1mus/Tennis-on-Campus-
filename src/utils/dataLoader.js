@@ -20,7 +20,7 @@ async function loadData() {
 }
 
 // Load data
-//let df = await loadData();
+let df = await loadData();
 
 async function getCaloriesFromApiPer100g(ingredient) {
     const headers = {
