@@ -1,20 +1,124 @@
 /* App.css */
 
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ac8e19;
+    padding: 15px;
+    text-align: center;
+    z-index: 100;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    background-color: #7c6c17;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #ac8e19;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer a:hover {
+    background-color: #7c6c17;
+}
+
+
+
+
 .App {
     display: flex;
     justify-content: center;  /* Horizontally center content */
     align-items: center;      /* Vertically center content */
     min-height: 100vh;        /* Take full height of the viewport */
+    width: 200vw;
     background-image: url('file:///Users/maximus/Downloads/catsRamen.jpg');  /* URL of your background image */
     background-size: cover;  /* Make the background image cover the entire page */
     background-position: center;  /* Center the background image */
     background-repeat: no-repeat;  /* Prevent the image from repeating */
     font-family: Arial, sans-serif;
     color: black;
+    overflow: auto;
+    padding-bottom: 80px;
 }
 
-  
-  .App-header {
+.App-header {
     text-align: center;
+}
+
+/* App.css */
+
+/* Style for the button-container to hold both the button and the link */
+.button-container {
+    display: flex;               /* Use flexbox to align items */
+    justify-content: space-evenly; /* Distribute space evenly */
+    align-items: center;         /* Align items vertically */
+    width: 100%;                 /* Ensure the container takes full width */
+    margin-top: 20px;            /* Add some space above */
+  }
+  
+  /* Style for the "Find a Recipe" button */
+  .find-recipe-button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ac8e19;   /* Green background */
+    color: white;                /* White text */
+    font-size: 18px;             /* Set font size */
+    padding: 12px 85px;          /* Add padding */
+    border: none;                /* Remove border */
+    border-radius: 5px;          /* Rounded corners */
+    cursor: pointer;            /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    margin-right: 0px;          /* Space between button and link */
+  }
+  
+  .find-recipe-button:hover {
+    color: #000000;   /* Darker green on hover */
+  }
+  
+  /* Style for the link to match the button formatting */
+.App-link {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+    font-size: 18px;               /* Same font size as button */
+    color: white;                  /* White text color */
+    background-color: #ac8e19;     /* Same background color as the button */
+    padding: 12px 24px;            /* Add padding similar to the button */
+    border-radius: 5px;            /* Rounded corners for a button-like look */
+    text-decoration: none;         /* Remove underline */
+    text-align: center;            /* Center the text */
+    display: inline-block;         /* Make it behave like a button */
+    margin-top: 0px;              /* Add a little spacing from other elements */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+  }
+  
+  .App-link:hover {
+    color: #000000;        /* Darker blue on hover */
   }
   
