@@ -50,19 +50,21 @@ function App() {
 
   return (
     <div className="App">
-      <div className = "navbar">
-        <a href="#home">Home</a>
-        <a href="#recipes">Recipes</a>
-        <a href="#contact">Contact</a>
+      <div className="navbar">
+        {/* Use anchor tags with href for navigation */}
+        <a href="https://cat-bounce.com/" className="nav-button">Home</a>
+        <a href="https://tenor.com/search/cat-cooking-gifs" className="nav-button">Recipes</a>
+        <a href="https://tenor.com/search/cat-phone-gifs" className="nav-button">Contact</a>
       </div>
 
       <header className="App-header">
         <Greeting />
         <div className="button-container">
           {/* Button for "Find a Recipe" */}
-          <button className="find-recipe-button" onClick = {handleRandomRecipe}>
+          <a href="https://randomoutputs.com/random-recipe-generator" className = "find-recipe-button">Here is a Random Recipe</a>
+          {/*<button className="find-recipe-button" onClick = {handleRandomRecipe}>
             Here is a Random Recipe
-          </button>
+          </button>*/}
           
           {/* Search by Title */}
           <input
@@ -151,7 +153,7 @@ function App() {
       {/* Footer */}
       <div className="footer">
         <p>© 2024 The Cooking Cat App</p>
-        <a href="https://www.example.com/privacy">Privacy Policy</a>
+        <a href="https://meowmeowmeow.com/">Privacy Policy</a>
       </div>
     </div>
   );
