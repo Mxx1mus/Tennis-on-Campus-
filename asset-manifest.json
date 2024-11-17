@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tennis-on-Campus-/static/css/main.780cffda.css",
+    "main.js": "/Tennis-on-Campus-/static/js/main.d70dd900.js",
+    "static/media/catsRamen.jpg": "/Tennis-on-Campus-/static/media/catsRamen.092f531fb172a78ebf1b.jpg",
+    "static/media/cookCatt.jpg": "/Tennis-on-Campus-/static/media/cookCatt.43b511f43cf2ec3d38a5.jpg",
+    "static/media/cookCat.jpg": "/Tennis-on-Campus-/static/media/cookCat.1c160f70443058421983.jpg",
+    "index.html": "/Tennis-on-Campus-/index.html",
+    "main.780cffda.css.map": "/Tennis-on-Campus-/static/css/main.780cffda.css.map",
+    "main.d70dd900.js.map": "/Tennis-on-Campus-/static/js/main.d70dd900.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.780cffda.css",
+    "static/js/main.d70dd900.js"
+  ]
+}
