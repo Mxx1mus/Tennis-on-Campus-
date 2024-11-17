@@ -129,7 +129,7 @@ html, body {
     border-radius: 5px;          /* Rounded corners */
     cursor: pointer;            /* Change cursor on hover */
     transition: background-color 0.3s ease; /* Smooth hover transition */
-    margin-right: 0px;          /* Space between button and link */
+    margin-right: 10px;          /* Space between button and link */
   }
   
   .find-recipe-button:hover {
@@ -164,7 +164,7 @@ html, body {
 }
 
 .calories-result {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: black;
     color: white;
     padding: 15px;
     border-radius: 8px;
@@ -198,4 +198,3 @@ button {
 button:hover {
     background-color: #7c6c17;
 }
-
