@@ -56,7 +56,7 @@ html, body {
     justify-content: center;  /* Horizontally center content */
     align-items: center;      /* Vertically center content */
     min-height: 100vh;        /* Take full height of the viewport */
-    width: 200vw;
+    width: 100vw;
     background-image: url('./image/catsRamen.jpg');  /* URL of your background image */
     background-size: cover;  /* Make the background image cover the entire page */
     background-position: center;  /* Center the background image */

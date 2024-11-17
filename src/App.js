@@ -152,7 +152,7 @@ function App() {
 
       {/* Footer */}
       <div className="footer">
-        <p>© 2024 The Cooking Cat App</p>
+        <p>© 2024 The Cooking Cat Website</p>
         <a href="https://meowmeowmeow.com/">Privacy Policy</a>
       </div>
     </div>
